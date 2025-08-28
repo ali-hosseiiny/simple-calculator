@@ -1,5 +1,5 @@
-let num1 = parseFloat(prompt("Enter number1:"));
-let num2 = parseFloat(prompt("Enter number2:"));
+let num1 = parseFloat(prompt("Enter First Number1:"));
+let num2 = parseFloat(prompt("Enter Second Number2:"));
 let operator = prompt("Enter operator(/,*,-,+):");
 
 function calculate(a,b,op){
@@ -22,5 +22,6 @@ function calculate(a,b,op){
     }
     return result;
 }
+
 
 alert ("answer :" + calculate(num1,num2,operator));
